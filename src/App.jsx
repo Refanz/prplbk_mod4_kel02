@@ -8,7 +8,12 @@ function App() {
     const [users, setUsers] = useState(["Khasandra", "Didan", "Refan", "Baihaqi"]);
 
     const [searchUser, setSearchUser] = useState("");
+    
+    function searchUserByName(event) {
+      setSearchUser(event.target.value);
 
+      console.log(searchUser);
+  }
     return (
         <>
             <div>
