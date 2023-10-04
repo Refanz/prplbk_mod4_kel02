@@ -17,7 +17,15 @@ function App() {
     return (
         <>
             <div>
+            <Typography variant="h4">
+                    Tugas Modul 4 Kelompok 2
+                </Typography>
 
+                <TextField id="outlined-basic" label="Cari user.." variant="outlined" size="small" margin="normal"
+                           onChange={searchUserByName}/>
+
+                <List sx={{width: '100%', maxWidth: 360, bgcolor: 'background.paper', marginY: 3}}>
+                    </List>
             </div>
 
         </>
